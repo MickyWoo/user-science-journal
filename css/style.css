@@ -1,0 +1,16 @@
+.flex {
+    margin: 155px 0;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+  }
+
+  .bold{
+      font-weight: 200;
+  }
+  .pro{
+      color:green;
+  }
+  .con{
+      color:red;
+  }
