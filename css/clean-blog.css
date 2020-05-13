@@ -36,7 +36,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #0085A1;
+  color: rgb(7, 85, 100);
 }
 
 blockquote {
@@ -69,7 +69,7 @@ blockquote {
 
 ::selection {
   color: #fff;
-  background: #0085A1;
+  background: rgb(6, 92, 109);
   text-shadow: none;
 }
 
@@ -160,13 +160,13 @@ img::-moz-selection {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+    color: rgb(11, 98, 116);
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+    color: rgb(4, 93, 110);
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -272,7 +272,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: rgb(6, 80, 95);
 }
 
 .post-preview > a > .post-title {
@@ -300,7 +300,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #0085A1;
+  color: rgb(6, 93, 110);
 }
 
 @media only screen and (min-width: 768px) {
@@ -363,7 +363,7 @@ header.masthead .post-heading .meta a {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #0085A1;
+  color: rgb(10, 88, 104);
 }
 
 form .form-group:first-child .floating-label-form-group {
@@ -402,8 +402,8 @@ footer .copyright {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #00657b !important;
-  border-color: #00657b !important;
+  background-color: #024e5f !important;
+  border-color: #03596d !important;
 }
 
 .btn-lg {

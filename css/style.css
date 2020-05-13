@@ -8,9 +8,7 @@
   .bold{
       font-weight: 200;
   }
-  .pro{
-      color:green;
-  }
-  .con{
-      color:red;
+
+  a:link {
+    color: red;
   }
