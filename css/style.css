@@ -13,8 +13,10 @@
    
     background-color:yellow;
     padding: 10px;
-    
+    border: linen;
 
-
-
+  }
+  .clicks{
+    display: flex;
+    justify-content: center;
   }
