@@ -110,28 +110,79 @@
                     <h1>Science Journal </h1>
 
                     <br> <br>
-                    <h2>Google Analytics Events & Goals</h2>
+                    <h2>Google Analytics A/B Test </h2>
 
-                    <p> My goal - Click Link </p>
+                    <p> My goal - Click Link 1 or 2 </p>
                     <ol>
                         <li>
-                            My goal is set up with a click Event on the Link I set up. And have people try out my booster Pack draw i set up for Final project
-                             ( I wanted to go
-                            further and link the click event to a call event within My final project but
-                            it is an incomplete project so I decided to no go that route)
+                            My goal is set up with a click Event on the Link I set up.
+                            but this time its an experiment to see which Link users Persue to complete the "goal"
+                            easier. ( more appealing)
 
                         </li>
+                        
+
                         <br>
                         <li>
-                            I dont have any funneling needed so I chose to leave it out.
+                            Based on my last post8, it was a bit lack luster in term of content and justifying why
+                            people had to click. so I made some changes to rectify that.
 
                         </li>
                     </ol>
                     <br>
+                </div>
+                <br>
+                <hr>
+
+                <!-- review -->
+                <div class="col-lg-8 col-md-10  col-sm-6 mx-auto">
+                    <h2> Usability and Accessibility perspective </h2>
+                    <ol>
+                        <h3 class="wave"> Wave</h3>
+                        <img class="img-fluid" src="post9/Wave-review.png" alt="Wave-results">
+                        <li> Did not have much in terms of improvements for acceessibility besides color </li>
+                        <br><br>
+
+                        <h3 class="bold"> Lighthouse</h3>
+                        <img class="img-fluid" src="post9/Google-review.png" alt="Lighthouse-results">
+                        <li> Were also straightforward, because I had very little content that was displayed so that
+                            triggered me to think i needed more "content" </li>
+                        <br><br>
+
+                        <h3 class="bold"> Analytics</h3>
+                        <img class="img-fluid" src="post9/Analytics reivew.png" alt="Analytics-results">
+                        <li>As my site does not have much traffic I did not anticipate much staticits to help me follow
+                            up on adjustments. But it does say that my current set up is not working
+                            so I need to change how how I can make my goal as accessible as possible. </li>
+                        <br><br>
+
+                    </ol>
+
+                </div>
+
+                <!-- Report -->
+                <div class="col-lg-8 col-md-10  col-sm-6 mx-auto">
+                    <h2>Changes I've made </h2>
+                    <ul>
+                        <li>Page image with booster pack, to give visual content of what they are going towards</li>
+                        <img class="img-fluid" src="post9/Page Sample.jpg" alt="boosterPack-Sample">
+                        <br>
+
+                        <li>Modified the link to see if its really is more appealing example is what you see bellow with
+                            "button" modifiyer added instead of just a text link, color of text is black so there is little contrast in color and Text Content is "open Booster Pack" instead of "Curous".</li>
+                          
+                            
+
+                    </ul>
+                    <br>
                     <hr>
                     <div class="flex-container">
-                    <div class="clicks-a" >
-                        <a href="http://mickywoo.com/wats-4000-final/#/BoosterPack" class="boosterPack-LINK" onclick="gtag('event', 'click', {
+                        <h3>Old Link</h3>
+                        <br>
+                        <div class="clicks-a">
+
+                            <a href="http://mickywoo.com/wats-4000-final/#/BoosterPack" class="boosterPack-LINK"
+                                onclick="gtag('event', 'click', {
 
                         'event_category': 'BoosterPack-page',
                             'event_label': 'BoosterPack',
@@ -139,10 +190,15 @@
 
                                     }); "> <strong>- Open Booster Pack -</strong> </a>
 
-                    </div>
-                    
-                    <div class="clicks-b" >
-                        <a href="http://mickywoo.com/wats-4000-final/#/BoosterPack" class="boosterPack-LINK" onclick="gtag('event', 'click', {
+                        </div>
+                        <br>
+                        <hr>
+                        <h3>New Link</h3>
+                        <br>
+
+                        <div class="clicks-b">
+                            <a href="http://mickywoo.com/wats-4000-final/#/BoosterPack" class="boosterPack-LINK"
+                                onclick="gtag('event', 'click', {
 
                         'event_category': 'BoosterPack-page',
                             'event_label': 'BoosterPack',
@@ -150,12 +206,14 @@
 
                                     }); "> <button> Open Booster Pack </button> </a>
 
+                        </div>
                     </div>
-                </div>
-
-
 
                 </div>
+
+
+
+
 
 
 
