@@ -16,7 +16,10 @@
     border: linen;
 
   }
-  .clicks{
+  .flex-container{
     display: flex;
     justify-content: center;
+  
   }
+
+  
